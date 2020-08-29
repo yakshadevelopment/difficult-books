@@ -1,0 +1,4 @@
+
+testArrangeBooksNumberWise=true
+testArrangeBooksAuthorWise=true
+testArrangeBooksTitleWise=true
