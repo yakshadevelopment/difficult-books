@@ -30,4 +30,14 @@ import static java8.diff.books.TestUtils.*
 		String value=(String)new BookService().arrangeBooksAuthorWise(bookList).get(0).getAuthor();
 yakshaAssert(currentTest(),value.equalsIgnoreCase("Doyle")?"true":"false",businessTestFile);
 	}
+	@Test
+    public void testExceptionConditon() throws Exception{
+	 yakshaAssert(currentTest(),true,boundaryTestFile);
+      }
+
+	@Test
+	public void testBoundaryCondition() throws Exception {
+	  yakshaAssert(currentTest(),true,exceptionTestFile);
+   }
+
 }
